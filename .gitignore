@@ -1,0 +1,11 @@
+#Syncthing metadata folder
+.stfolder
+
+# Lockfiles
+nvim-pack-lock.json
+
+# Agentic Stuff
+improve.md
+
+# Logs
+*.log

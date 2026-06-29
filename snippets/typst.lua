@@ -1,0 +1,18 @@
+return {
+  { prefix = "ff",  body = "($1)/($2)" },
+  { prefix = "ZZ",  body = "\\$ZZ\\$" },
+  { prefix = "NN",  body = "\\$NN\\$" },
+  { prefix = "QQ",  body = "\\$QQ\\$" },
+  { prefix = "CC",  body = "\\$CC\\$" },
+  { prefix = "al",  body = "alpha" },
+  { prefix = "om",  body = "omega" },
+  { prefix = "la",  body = "lambda" },
+  { prefix = "ph",  body = "phi" },
+  { prefix = "mu",  body = "mu" },
+  { prefix = "con", body = "equiv $1 (mod $2)" },
+  { prefix = "hcf", body = "op(\"hcf\")($1, $2)" },
+  { prefix = "leg", body = "($1/$2)" },
+  { prefix = "sq",  body = "^2" },
+  { prefix = "inv", body = "^(-1)" },
+  { prefix = "pow", body = "^($1)" },
+}
